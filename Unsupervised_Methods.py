@@ -4,7 +4,6 @@
 #============================================================
 import sys
 sys.path.insert(0, 'SimilarityMetrics')
-import Create_Networks_CSV
 from igraph import *
 import Common_Neighbors
 import Preferential_Attachment
@@ -46,16 +45,11 @@ for ii in range(1,31):
     # file name and place it in a directory called "Networks" in
     # the same folder as the code is.
     #============================================================
-    #tradeTrainFile = "trades-train-network-2009-12-01.txt"
-    tradeTrainFile = Create_Networks_CSV.createNetworkCSV("trades","train",trainFromDate,trainToDate,directory)
-    #messageTrainFile = "messages-train-network-2009-12-01.txt"
-    messageTrainFile = Create_Networks_CSV.createNetworkCSV("messages","train",trainFromDate,trainToDate,directory)
-    #tradeTestFile = "trades-test-network-2009-12-21.txt"
-    tradeTestFile = Create_Networks_CSV.createNetworkCSV("trades","test",testFromDate,testToDate,directory)
-    #messageTestFile = "messages-test-network-2009-12-21.txt"
-    messageTestFile = Create_Networks_CSV.createNetworkCSV("messages","test",testFromDate,testToDate,directory)
-
-
+    tradeTrainFile = "trades-train-network-{0}.csv".format(trainFromDate)
+    messageTrainFile = "messages-train-network-{0}.csv".format(trainFromDate)
+    tradeTestFile = "trades-test-network-{0}.csv".format(testFromDate)
+    messageTestFile = "messages-test-network-{0}.csv".format(testFromDate)
+    
     #================= Trades =================
     tradesFullFile = Create_Networks_CSV.createNetworkCSV("trades","full",trainFromDate,testToDate,directory)
     tradesFullNet = open(directory+tradesFullFile,'r')
