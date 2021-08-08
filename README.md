@@ -8,12 +8,12 @@ This network dataset was designed for studying multiplex network problems, in pa
 
 If you want to use the network data please cite one of the following papers:
 
-**"Conflict and Communication in Massively-Multiplayer Online Games" Alireza Hajibagheri, Kiran Lakkaraju, Gita Sukthankar, Rolf T. Wigand, and Nitin Agrawal. Proceedings of the International Conference on Social Computing, Behavioral-Cultural Modeling, and Prediction. 2015.
+** "Conflict and Communication in Massively-Multiplayer Online Games" Alireza Hajibagheri, Kiran Lakkaraju, Gita Sukthankar, Rolf T. Wigand, and Nitin Agrawal. Proceedings of the International Conference on Social Computing, Behavioral-Cultural Modeling, and Prediction. 2015.
 
-**"Using Massively Multiplayer Online Game Data to Analyze the Dynamics of Social Interactions" Alireza Hajibagheri, Gita Sukthankar, Kiran Lakkaraju, Hamidreza Alvari, Rolf T Wigand, Nitin Agarwal. Social Interaction in Virtual Worlds. 2017.
+** "Using Massively Multiplayer Online Game Data to Analyze the Dynamics of Social Interactions" Alireza Hajibagheri, Gita Sukthankar, Kiran Lakkaraju, Hamidreza Alvari, Rolf T Wigand, Nitin Agarwal. Social Interaction in Virtual Worlds. 2017.
 
 We have developed a Python toolkit for multiplex link prediction on this dataset. The algorithms are described in these papers:
 
-**"A Holistic Approach for Link Prediction in Multiplex Networks" Alireza Hajibagheri, Gita Sukthankar, Kiran Lakkaraju. Proceedings of the International Conference on Social Informatics. 2016. pp. 55-70 (pdf)
+** "A Holistic Approach for Link Prediction in Multiplex Networks" Alireza Hajibagheri, Gita Sukthankar, Kiran Lakkaraju. Proceedings of the International Conference on Social Informatics. 2016. pp. 55-70 (pdf)
 
-**"Extracting Information from Negative Interactions in Muliplex Networks using Mutual Information" Alireza Hajibagheri, Gita Sukthankar, Kiran Lakkaraju. Proceedings of the International Conference on Social Computing, Behavioral-Cultural Modeling, and Prediction. 2017.
+** "Extracting Information from Negative Interactions in Muliplex Networks using Mutual Information" Alireza Hajibagheri, Gita Sukthankar, Kiran Lakkaraju. Proceedings of the International Conference on Social Computing, Behavioral-Cultural Modeling, and Prediction. 2017.
